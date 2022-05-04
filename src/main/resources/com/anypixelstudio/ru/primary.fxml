@@ -29,17 +29,18 @@
                      </children></AnchorPane>
                </content>
             </Tab>
-            <Tab text="Квесты">
+            <Tab text=" Задания ">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <TextField layoutX="702.0" layoutY="38.0" />
-                        <Button layoutX="867.0" layoutY="38.0" mnemonicParsing="false" text="Поиск по кв" />
+                        <TextField layoutX="26.0" layoutY="26.0" />
+                        <Button layoutX="187.0" layoutY="26.0" mnemonicParsing="false" text="Поиск по кв" />
+                        <ListView layoutX="389.0" layoutY="26.0" prefHeight="504.0" prefWidth="581.0" />
                      </children>
                   </AnchorPane>
                </content>
             </Tab>
-            <Tab text=" Трейд ">
+            <Tab text=" Обмены ">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                </content>
