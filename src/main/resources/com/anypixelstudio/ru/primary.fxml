@@ -14,14 +14,29 @@
    <children>
       <TabPane prefHeight="600.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
-          <Tab text=" Калькулятор Навыков ">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </Tab>
-            <Tab text=" Сравнение Оружия ">
+            <Tab text=" Главнаяя страница ">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="749.0" layoutY="273.0" mnemonicParsing="false" text="очистка оперативки" />
+                        <Button layoutX="736.0" layoutY="318.0" mnemonicParsing="false" text="перезагрузка в.драйвера" />
+                        <Button layoutX="747.0" layoutY="369.0" mnemonicParsing="false" text="мониторинг системы" />
+                        <Button layoutX="663.0" layoutY="501.0" mnemonicParsing="false" text="Вери лоу" />
+                        <Button layoutX="747.0" layoutY="501.0" mnemonicParsing="false" text="Лоу" />
+                        <Button layoutX="813.0" layoutY="501.0" mnemonicParsing="false" text="Медиум" />
+                        <Button layoutX="896.0" layoutY="501.0" mnemonicParsing="false" text="Ультра" />
+                        <Button layoutX="758.0" layoutY="231.0" mnemonicParsing="false" text="Выбор граф ядра" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Квесты">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField layoutX="702.0" layoutY="38.0" />
+                        <Button layoutX="867.0" layoutY="38.0" mnemonicParsing="false" text="Поиск по кв" />
+                     </children>
+                  </AnchorPane>
                </content>
             </Tab>
             <Tab text=" Трейд ">
@@ -29,6 +44,16 @@
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                </content>
             </Tab>
+            <Tab text=" Сравнение Оружия ">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+          <Tab text=" Калькулятор Навыков ">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
             <Tab text=" Черный Список ">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
@@ -38,23 +63,6 @@
                         <TextArea layoutX="32.0" layoutY="174.0" prefHeight="210.0" prefWidth="285.0" />
                         <TextField layoutX="32.0" layoutY="116.0" prefHeight="25.0" prefWidth="285.0" />
                         <ListView layoutX="373.0" layoutY="16.0" prefHeight="543.0" prefWidth="613.0" />
-                     </children></AnchorPane>
-               </content>
-            </Tab>
-            <Tab text=" Главнаяя страница ">
-               <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <Button layoutX="729.0" layoutY="83.0" mnemonicParsing="false" text="очистка оперативки" />
-                        <Button layoutX="716.0" layoutY="126.0" mnemonicParsing="false" text="перезагрузка в.драйвера" />
-                        <Button layoutX="729.0" layoutY="177.0" mnemonicParsing="false" text="мониторинг системы" />
-                        <Button layoutX="38.0" layoutY="501.0" mnemonicParsing="false" text="Старт игры" />
-                        <Button layoutX="747.0" layoutY="304.0" mnemonicParsing="false" text="Вери лоу" />
-                        <Button layoutX="762.0" layoutY="365.0" mnemonicParsing="false" text="Лоу" />
-                        <Button layoutX="763.0" layoutY="407.0" mnemonicParsing="false" text="Медиум" />
-                        <Button layoutX="786.0" layoutY="448.0" mnemonicParsing="false" text="Ультра" />
-                        <TextField layoutX="136.0" layoutY="151.0" />
-                        <Button layoutX="299.0" layoutY="152.0" mnemonicParsing="false" text="Поиск по кв" />
                      </children></AnchorPane>
                </content>
             </Tab>
