@@ -14,9 +14,10 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
-    private static int Width = 1000;
-    private static int Height = 600;
+    private static int Width = 800;
+    private static int Height = 500;
     private static String NameApp = "[SOH] StayOut Helper ";
+
 
     @Override
     public void start(Stage stage) throws IOException {
