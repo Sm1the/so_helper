@@ -23,17 +23,16 @@
                      <children>
                         <Button layoutX="134.0" layoutY="62.0" mnemonicParsing="false" text="очистка оперативки" />
                         <Button layoutX="142.0" layoutY="110.0" mnemonicParsing="false" text="перезагрузка в.драйвера" />
-                        <Button layoutX="136.0" layoutY="153.0" mnemonicParsing="false" text="мониторинг системы" />
                         <Button layoutX="471.0" layoutY="217.0" mnemonicParsing="false" text="Вери лоу" />
                         <Button layoutX="552.0" layoutY="205.0" mnemonicParsing="false" text="Лоу" />
                         <Button layoutX="607.0" layoutY="193.0" mnemonicParsing="false" text="Медиум" />
                         <Button layoutX="689.0" layoutY="193.0" mnemonicParsing="false" text="Ультра" />
                         <Button layoutX="142.0" layoutY="192.0" mnemonicParsing="false" text="Выбор граф ядра" />
-                        <Button layoutX="549.0" layoutY="361.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="132.0" text="Старт" />
+                        <Button layoutX="638.0" layoutY="362.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="132.0" text="Старт" />
                         <Button layoutX="33.0" layoutY="401.0" mnemonicParsing="false" text="Выбор места игры" />
-                        <Label layoutX="184.0" layoutY="393.0" text="Label" />
-                        <CheckBox layoutX="506.0" layoutY="330.0" mnemonicParsing="false" text="АвтоОичстка" />
-                        <CheckBox layoutX="615.0" layoutY="330.0" mnemonicParsing="false" text="Высокое граф ядро" />
+                        <Label layoutX="170.0" layoutY="405.0" text="Label" />
+                        <CheckBox layoutX="506.0" layoutY="393.0" mnemonicParsing="false" text="АвтоОичстка" />
+                        <CheckBox layoutX="507.0" layoutY="418.0" mnemonicParsing="false" text="Высокое граф ядро" />
                      </children></AnchorPane>
                </content>
             </Tab>
